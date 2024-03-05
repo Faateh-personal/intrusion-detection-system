@@ -1,0 +1,17 @@
+# Configuration for the Intrusion Detection System
+
+# Network interface to monitor
+interface: "eth0"
+
+# Anomaly detection settings
+anomaly_detection:
+  threshold: 100
+  # Other parameters for anomaly detection can be added here
+
+# Alert settings
+alert:
+  email_recipients:
+    - "admin@example.com"
+  sms_recipients:
+    - "+1234567890"
+  # Other alert settings can be added here
