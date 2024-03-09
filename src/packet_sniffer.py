@@ -10,3 +10,5 @@ class PacketSniffer:
     def process_packet(self, packet):
         # Process packet and extract features
         return packet
+
+
